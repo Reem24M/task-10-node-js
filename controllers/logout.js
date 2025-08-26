@@ -1,5 +1,5 @@
 const fs = require('fs');
-let users=reqire('../data/users.json')
+let users=require('../data/users.json')
 
 const Logout = (req, res) => {
     const { username } = req.params.username;

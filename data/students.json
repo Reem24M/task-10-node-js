@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "firstname": "reem",
+        "lastname": "alhussain",
+        "email": "reem@example.com",
+        "age": 20,
+        "course": "Computer Science",
+        "status": "active"
+    }
+]

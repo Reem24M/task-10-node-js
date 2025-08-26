@@ -2,7 +2,7 @@ const users=require('../data/users.json')
 
 const Login=(req,res)=>{
   console.log("hello world");
-  res.render('login');
+  res.render('login',{message:"Please login"});
 }
 const Finduser=(req,res)=>{
   console.log("hello");

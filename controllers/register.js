@@ -2,7 +2,7 @@ const fs=require('fs')
 
 
 const Register = (req, res) => {
-    return res.render('register');
+    return res.render('register',{message:"Please register"});
 }
 
 const RegisterUser = (req, res) => {

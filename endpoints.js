@@ -1,10 +1,13 @@
-const {app}=require('index');
+const {app}=require('./index');
 const{Register,RegisterUser}=require('./controllers/register')
-const {Finduser,Login}=require('../constrollers/login');
+const {Finduser,Login}=require('./controllers/login');
 const { Logout } = require('./controllers/logout');
 const {AddStudent,AddStudentPost,GETStudents,GETUsers,DeleteUser}=require('./controllers/add_student')
-const {DeleteStudent}=require('./controllers/edit_student.js')
+const {DeleteStudent}=require('./controllers/delete_student')
 const {EditStudent,EditStudentPost}=require('./controllers/edit_student')
+// app.get('/',(req,res)=>{
+//     res.send("Welcome to the Student Management System");
+// })
 app.get('/login',Login);
 app.post('/login',Finduser);
 
